@@ -1,22 +1,19 @@
-# Translation App
+Notes App Remodeling Project
 
-The user has a basic translation app that can translate between different languages
-## Functionality 
+Overview
 
-The following **required** functionality is completed:
+This project involves remodeling an existing notes application, incorporating specific design changes, enhanced functionality, and integration with Firebase services for authentication and database management.
 
-* [ ] User can choose which language they want to translate from
-* [ ] User can choose which langauge to translate to
-* [ ] User can input text to translate
-* [ ] User can view the translated texts
+Main Activity
+Layout Changes:
+Use a RecyclerView with a StaggeredGridLayoutManager set to 2 columns.
 
+Each note item is presented in a CardView with a cardCornerRadius of 5dp and margins of 5dp.
+Toolbar:
 
-The following **extensions** are implemented:
-
-* ...
-* ...
-
-## Video Walkthrough
+Includes two buttons: an add button (left) and a user management button (right).
+The add button navigates to the “NoteScreen” for adding new notes.
+The user management button starts the “UserScreen” fragment for Firebase authentication-related actions.
 
 
 
